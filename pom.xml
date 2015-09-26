@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.davidbilge</groupId>
 	<artifactId>jskill</artifactId>
@@ -49,7 +48,13 @@
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 	</distributionManagement>
-
+	<scm>
+		<connection>scm:git:https://github.com/allanmc/JSkills.git</connection>
+		<developerConnection>scm:git:https://github.com/allanmc/JSkills.git</developerConnection>
+		<url>https://github.com/allanmc/JSkills</url>
+		<tag>HEAD</tag>
+	</scm>
+	
 	<build>
 		<plugins>
 			<plugin>
