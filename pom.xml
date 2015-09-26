@@ -73,6 +73,7 @@
 					<noJekyll>true</noJekyll><!-- disable webpage processing -->
 					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory><!-- matches distribution management repository url above -->
 					<branch>refs/heads/mvn-repo</branch><!-- remote branch name -->
+					<merge>true</merge> <!-- merge with the current tree, instead of replacing -->
 					<includes><include>**/*</include></includes>
 					<server>github</server><!-- repository username  -->
 					<repositoryOwner>allanmc</repositoryOwner><!-- github username  -->
