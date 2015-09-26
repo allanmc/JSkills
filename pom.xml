@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.davidbilge</groupId>
 	<artifactId>jskill</artifactId>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -52,7 +52,7 @@
 		<connection>scm:git:https://github.com/allanmc/JSkills.git</connection>
 		<developerConnection>scm:git:https://github.com/allanmc/JSkills.git</developerConnection>
 		<url>https://github.com/allanmc/JSkills</url>
-		<tag>jskill-1.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 	
 	<build>
